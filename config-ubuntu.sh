@@ -42,7 +42,7 @@ nvm use 22.11.0
 
 # Atualizando o NPM
 print_message "Atualizando o NPM..."
-sudo npm install -g npm
+npm install -g npm@latest
 
 
 # Instalando o Python a partir do código-fonte
