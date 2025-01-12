@@ -174,6 +174,9 @@ sudo snap install flutter --classic
 
 # Instalar outros aplicativos via loja (opcional)
 print_message "Instalando outros aplicativos..."
+sudo apt install gdebi
+sudo apt install gnome-tweaks
+
 sudo snap install vlc --classic
 sudo snap install amberol --classic
 sudo snap install guvcview --classic
