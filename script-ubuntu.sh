@@ -19,6 +19,11 @@ sudo rm google-chrome-stable_current_amd64.deb
 print_message "Instalando pacotes Git e NPM..."
 sudo apt install git npm -y
 
+# Atualizando o Git
+print_message "Atualizando a versão do Gi..."
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+
 # Instalando o NVM (Node Version Manager)
 print_message "Instalando o NVM (Node Version Manager)..."
 sudo apt install curl -y
@@ -183,4 +188,3 @@ sudo snap install guvcview --classic
 sudo snap install xampp --classic
 
 print_message "Instalação completa! Todos os pacotes foram instalados com sucesso."
-
